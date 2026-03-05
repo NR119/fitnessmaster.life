@@ -138,7 +138,7 @@ const Hero = () => {
 
   return (
     <section 
-      className="px-6 pt-32 pb-20 md:pt-40 md:pb-32 relative min-h-[80vh] flex items-center overflow-hidden transition-colors duration-1000"
+      className="px-6 pt-32 pb-20 md:p-0 md:aspect-video relative min-h-[80vh] md:min-h-0 flex items-center overflow-hidden transition-colors duration-1000"
       style={{ backgroundColor: slides[currentSlide].bgColor }}
     >
       {/* Progress Indicators */}
